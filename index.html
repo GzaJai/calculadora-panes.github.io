@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de panes</title>
+  <link rel="shortcut icon" href="sources/baguette-solid-60.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de panes</h1>
+    <p>En esta calculadora podras calcular las cantidades necesarias para cocinar la número de panes pretendidos.</p>
+  </header>
+  <section>
+    <div class="selector">
+      <div class="active-seccion"><span id="cantidad">Cantidad</span></div>
+      <div class="secciones"><span id="precio">Precio</span></div>
+    </div>
+    <article class="">
+      <div class="cant-container">
+        <h4>¿Cuántos panes quieres hacer?</h4>
+        <div class="cant-input-container">
+          <input class="cant-input" type="number" placeholder="ingrese un numero">
+          <button class="cant-btn"><i class='bx bx-right-arrow-alt' style='color:#ffffff'  ></i></box-icon></button>
+        </div>
+        <div class="cant-res-div">
+          <span class="cant-res">2 kilos de harina<br>
+            40g de levadura
+          </span>
+        </div>
+      </div>
+    </article>
+
+
+    <article class="hide">
+      <div class="price-container">
+        <h4>Ingresa los precios de:</h4>
+        <div class="price-input-container">
+          La harina:<input class="price-input" type="number">
+          La levadura:<input class="price-input" type="number">
+          <button class="price-btn">Calcular</button>
+        </div>
+        <div class="price-res-div">
+          <span class="price-res"></span>
+        </div>
+      </div>
+    </article>
+  </section>
+  <footer>
+    <div class="name__footer">
+      <a href="https://github.com/GzaJai/"><h3 style="font-size: 25px;">Gonzalo Jaime</h3>
+        <h4>Developer</h4></a>
+    </div>
+    <div class="links">
+      <a href="https://github.com/GzaJai/" target="_blank"><i class='bx bxl-github' ></i></a>
+      <a href="https://www.linkedin.com/in/gjaimeguinazu/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+    </div>
+  </footer>
+</body>
+</html>
