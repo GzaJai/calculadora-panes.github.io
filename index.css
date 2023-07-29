@@ -54,6 +54,7 @@ ul{
   font-size: .8rem;
   font-weight: 700;
   padding: 6px 2px;
+  cursor: pointer;
 }
 .seccion{
   background-color: #FF5555;
@@ -92,6 +93,7 @@ ul{
   border: none;
   border-radius: 0 4px 4px 0;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .cant-input{
   margin: 10px 0;
@@ -108,6 +110,10 @@ ul{
   outline: none;
   background-color: #ff555542;
   color: #FFF;
+}
+li{
+  font-weight: 800;
+  margin: .5rem;
 }
 
 /* Calculadora de precios */
@@ -137,12 +143,14 @@ ul{
   border-radius: 4px;
   text-indent: 3px;
   height: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
+  color: #000;
 }
 .price-input:focus{
   outline: none;
   background-color: #ff555542;
+  color: #FFF;
 }
 .price-btn{
   background-color: #FF5555;
@@ -152,7 +160,15 @@ ul{
   margin: 10px 0;
   font-size: 1.5rem;
   font-weight: 600;
+  cursor: pointer;
 }
+.price-res-div{
+  font-weight: 800;
+  margin: 2rem 0 0;
+}
+
+/* Footer */
+
 footer{
   width: 100%;
   display: flex;

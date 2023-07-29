@@ -21,7 +21,6 @@ function harinaCalc (){
   }
   hli.innerText = `${cantHarina}`;
   restList.append(hli);
-  console.log("ok");
 }
 
 // calculos de la levadura necesaria
@@ -49,7 +48,6 @@ function levaduraCalc (){
   }
   lli.innerText = `${cantLevadura}`;
   restList.append(lli);
-  console.log("ok");
 }
 
 function showRes(){
