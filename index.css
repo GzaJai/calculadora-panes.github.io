@@ -46,7 +46,7 @@ ul{
   width: 70%;
   margin: 0 auto;
 }
-.secciones,.active-seccion{
+.seccion,.seccion-activa{
   width: 25%;
   margin: 0 3px;
   border-radius: 6px 6px 0 0;
@@ -55,13 +55,13 @@ ul{
   font-weight: 700;
   padding: 6px 2px;
 }
-.secciones{
+.seccion{
   background-color: #FF5555;
   -webkit-box-shadow: inset 0px -47px 28px -38px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 0px -47px 28px -38px rgba(0,0,0,0.4);
   box-shadow: inset 0px -47px 28px -38px rgba(0,0,0,0.4);
 }
-.active-seccion{
+.seccion-activa{
   background-color: #f895c3;
 }
 

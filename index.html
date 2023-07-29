@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="index.css">
   <script src="calcPrice.js" defer></script>
   <script src="calcCant.js" defer></script>
+  <script src="calcSelector.js" defer></script>
 </head>
 <body>
   <header>
@@ -17,10 +18,10 @@
   </header>
   <section>
     <div class="selector">
-      <div class="active-seccion"><span id="cantidad">Cantidad</span></div>
-      <div class="secciones"><span id="precio">Precio</span></div>
+      <div class="seccion-activa" id="selector-cantidad"><span>Cantidad</span></div>
+      <div class="seccion" id="selector-precio"><span>Precio</span></div>
     </div>
-    <article class="">
+    <article id="cantidad" class="">
       <div class="cant-container">
         <h4>¿Cuántos panes quieres hacer?</h4>
         <div class="cant-input-container">
@@ -37,7 +38,7 @@
     </article>
 
 
-    <article class="hide">
+    <article id="precio" class="hide">
       <div class="price-container">
         <h4>Ingresa los precios de:</h4>
         <div class="price-input-container">
