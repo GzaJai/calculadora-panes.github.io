@@ -58,3 +58,4 @@ function showRes(){
   document.querySelector(".init-mes").classList.add("hide");
 }
 document.querySelector("#cantButton").addEventListener("click", showRes);
+document.querySelector("#cantButton").addEventListener("touchend", showRes);
