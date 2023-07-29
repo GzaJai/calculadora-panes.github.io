@@ -34,6 +34,9 @@ header p{
 section, article{
   width: 100%;
 }
+ul{
+  list-style: none;
+}
 
 /* Selector */
 
@@ -99,10 +102,12 @@ section, article{
   width: 100%;
   font-size: 1rem;
   text-align: center;
+  color: #000;
 }
 .cant-input:focus{
   outline: none;
   background-color: #ff555542;
+  color: #FFF;
 }
 
 /* Calculadora de precios */
